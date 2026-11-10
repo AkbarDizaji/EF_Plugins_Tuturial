@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Demo02.QueryComplexity</AssemblyName>
+    <RootNamespace>Demo02.QueryComplexity</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <!-- https://github.com/SimonCropp/EfQueryComplexity (MIT) — 0.8.0 targets EF Core 10 -->
+    <PackageReference Include="EfQueryComplexity" Version="0.8.0" />
+  </ItemGroup>
+</Project>

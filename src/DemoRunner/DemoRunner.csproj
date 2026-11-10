@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>DemoRunner</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\01-Returning\01-Returning.csproj" />
+    <ProjectReference Include="..\02-QueryComplexity\02-QueryComplexity.csproj" />
+    <ProjectReference Include="..\03-Projectables\03-Projectables.csproj" />
+    <ProjectReference Include="..\04-WindowFunctions\04-WindowFunctions.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Demo04.WindowFunctions</AssemblyName>
+    <RootNamespace>Demo04.WindowFunctions</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <!-- https://github.com/zompinc/efcore-extensions (MIT) — 10.x targets EF Core 10 -->
+    <PackageReference Include="Zomp.EFCore.WindowFunctions.SqlServer" Version="10.1.20" />
+  </ItemGroup>
+</Project>

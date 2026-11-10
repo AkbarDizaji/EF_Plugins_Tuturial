@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Demo03.Projectables</AssemblyName>
+    <RootNamespace>Demo03.Projectables</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <!-- https://github.com/EFNext/EntityFrameworkCore.Projectables (MIT) — 6.x targets net8.0 and net10.0 -->
+    <PackageReference Include="EntityFrameworkCore.Projectables" Version="6.0.6" />
+  </ItemGroup>
+</Project>

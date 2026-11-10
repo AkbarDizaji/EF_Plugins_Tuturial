@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <!-- Package versions in one place so every demo uses the same EF Core build -->
+    <EfCoreVersion>10.0.14</EfCoreVersion>
+  </PropertyGroup>
+</Project>

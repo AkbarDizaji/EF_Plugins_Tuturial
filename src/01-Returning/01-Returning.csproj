@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Demo01.Returning</AssemblyName>
+    <RootNamespace>Demo01.Returning</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <!-- https://github.com/dsgordeev/EFCore.ReturningExtensions (MIT) — 10.x targets EF Core 10 -->
+    <PackageReference Include="EFCore.ReturningExtensions.SqlServer" Version="10.2.3" />
+  </ItemGroup>
+</Project>
